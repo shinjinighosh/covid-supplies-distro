@@ -42,10 +42,10 @@ def GET():
     return outs
 
 def POST(user):
-    conn = sqlite3.connect(shards_db)  # connect to that database (will create if it doesn't already exist)
+    conn = sqlite3.connect(supplies_db)  # connect to that database (will create if it doesn't already exist)
     c = conn.cursor()  # move cursor into database (allows us to execute commands)
     c.execute('''CREATE TABLE IF NOT EXISTS supplies (user text, timing timestamp);''') # run a CREATE TABLE command
-    c.execute('''INSERT into supplies VALUES (?,?,?,?);''',(user,datetime.datetime.now())) #with time
+    c.execute('''INSERT into supplies VALUES (?,?);''',(user,datetime.datetime.now())) #with time
     conn.commit() # commit commands
     conn.close() # close connection to database
     return "Successfully entered value"
