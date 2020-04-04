@@ -1,12 +1,14 @@
 # Frontfacing
 - Form for volunteers to add their availability - timing and location, and
   capacity (not just hospital resources but also groceries, essentials)
-- Form for donors to add product, number and availability - timing and location
+- Form for donors to add product, number and availability - timing and location,
+  ability to transport/travel
 - Form for hospitals/nursing homes/care facilities to ask for product, number,
   urgency, and location
 - Form for storehouses to both add products, numbers and availability/location
   as well as space to store new items, and also if they have transportation
 available
+- Preview the current needs, if person had agreed to
 
 # Backend
 - simply put, match supply and demand
