@@ -29,9 +29,10 @@ it
   kind of product
 - email them with matching:
     - volunteers get to know task
-	- donors find out who is coming when
-	- hospitals find out what to expect when
-	- storehouses find out new storage, task, or which volunteer to expect to
+    - storehouses find out new storage, task, or which volunteer to expect to
+    - donors find out who is coming when
+    - hospitals find out what to expect when
+    - storehouses find out new storage, task, or which volunteer to expect to
 arrive with stuff, or gather stuff when
 - update as done and remove completed tasks
 - thank-yous and public facing impact update
