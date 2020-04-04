@@ -5,3 +5,5 @@ https://www.kaggle.com/tags/covid19
 https://www.dropbox.com/s/n466b8p3sv6ruxg/COVID-19%20Datasets%20%26%20Data-Driven%20Tools.pdf?dl=0
 https://github.com/MonsantoCo/ol-kit
 Panjiva supply chain data platform
+https://covid-19-apis.postman.com/
+https://gettingstartedhealth.intersystems.com/hackathon/
