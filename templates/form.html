@@ -1,0 +1,33 @@
+<!-- <link rel="stylesheet" href="login.css"> -->
+
+
+<hgroup>
+  <h2>Login to covid-supply-distro</h2>
+</hgroup>
+
+<form onsubmit="login;">
+
+    <p>I am a:</p>
+    <input type="radio" name="role" id="vol" value="vol"><span class="highlight"></span><span class="bar"></span>
+    <label for="volunteer">volunteer</label><br>
+    <input type="radio" name="role" id="req" value="req"><span class="highlight"></span><span class="bar"></span>
+    <label for="a">requestor</label><br>
+    <input type="radio" name="role" id="sup" value="sup"><span class="highlight"></span><span class="bar"></span>
+    <label for="a">supplier</label><br>
+    <input type="radio" name="role" id="med" value="med"><span class="highlight"></span><span class="bar"></span>
+    <label for="a">facility</label><br>
+    <br>
+
+  <div class="group">
+    <input type="text"><span class="highlight"></span><span class="bar"></span>
+    <label>user</label>
+  </div>
+  <div class="group">
+    <input type="password"><span class="highlight"></span><span class="bar"></span>
+    <label>passphrase</label>
+  </div>
+  <button type="button" class="button buttonBlue">enter
+    <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
+  </button>
+
+</form>
