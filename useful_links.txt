@@ -1,0 +1,7 @@
+https://github.com/COVID-basic-needs
+https://aws.amazon.com/data-exchange/covid-19/?cards.sort-by=item.additionalFields.order&cards.sort-order=asc
+https://github.com/bdeboe/isc-iknow-covid
+https://www.kaggle.com/tags/covid19
+https://www.dropbox.com/s/n466b8p3sv6ruxg/COVID-19%20Datasets%20%26%20Data-Driven%20Tools.pdf?dl=0
+https://github.com/MonsantoCo/ol-kit
+Panjiva supply chain data platform
