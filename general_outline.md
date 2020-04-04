@@ -51,8 +51,8 @@ arrive with stuff, or gather stuff when
     - isolation gowns
     - face shields
     - surgical gloves
-
 - food
+- laboratory supplies
 - essential non-covid medical supplies
 - other essential supplies
 
