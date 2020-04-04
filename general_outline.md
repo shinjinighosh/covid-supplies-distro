@@ -62,4 +62,46 @@ arrive with stuff, or gather stuff when
     - number
     - location
     - times available to donate
+    - ability to transport
+    - certified?
+- recipients
+    - individuals
+        - product
+        - number
+        - necessity
+        - location
+        - ability to transport
+        - availability
+        - certification necessity
+    - hospitals/nursing homes/care facilities
+        - product
+        - number
+        - urgency
+        - location
+        - ability to transport
+        - availability
+        - certification necessity
+- tranport volunteers
+    - availability
+    - capacity for transportation
+    - distance willing to transport
+- storehouses
+    - to donate
+        - product
+        - number
+        - location
+        - times available to donate
+        - ability to transport
+        - certified?
+    - to store
+        - space available (numbers per product)
+        - location
+        - times available to take in
+        - ability to transport
+    - to transport
+        - availability
+        - capacity for transportation
+        - distance willing to transport
+
+
 
