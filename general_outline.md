@@ -1,7 +1,6 @@
 # Frontfacing
-
 - Form for volunteers to add their availability - timing and location, and
-  capacity
+  capacity (not just hospital resources but also groceries, essentials)
 - Form for donors to add product, number and availability - timing and location
 - Form for hospitals/nursing homes/care facilities to ask for product, number,
   urgency, and location
@@ -21,3 +20,18 @@ it
 - allocation: algorithm to choose which hospital receives how much, in times of
   overdemand and crisis
 
+# Workflow
+- on front screen, "I am..." + security
+- frontfacing form to process running on the server which stores to a database
+- database is csv file
+- /magic matching works/
+- every n hours (more frequent in daytime, hibernating overnight), depends on
+  kind of product
+- email them with matching:
+-- volunteers get to know task
+-- donors find out who is coming when
+-- hospitals find out what to expect when
+-- storehouses find out new storage, task, or which volunteer to expect to
+arrive with stuff, or gather stuff when
+- update as done and remove completed tasks
+- thank-yous and public facing impact update
