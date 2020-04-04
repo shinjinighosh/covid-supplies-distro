@@ -38,3 +38,19 @@ it
 arrive with stuff, or gather stuff when
 - update as done and remove completed tasks
 - thank-yous and public facing impact update
+
+# Products Offered
+- essential medical supplies for covid
+    - medicines
+    - medical equipment: ventilator, disinfecting wipes, hand sanitizers, pap
+      machines
+- PPE
+    - N95 masks
+    - triple layer surgical masks
+    - aprons
+    - isolation gowns
+    - face shields
+    - surgical gloves
+
+- food
+- essential non-covid medical supplies
