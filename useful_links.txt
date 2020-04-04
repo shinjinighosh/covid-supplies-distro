@@ -6,3 +6,4 @@ https://www.dropbox.com/s/n466b8p3sv6ruxg/COVID-19%20Datasets%20%26%20Data-Drive
 https://github.com/MonsantoCo/ol-kit
 Panjiva supply chain data platform
 https://covid-19-apis.postman.com/
+https://gettingstartedhealth.intersystems.com/hackathon/
