@@ -54,3 +54,12 @@ arrive with stuff, or gather stuff when
 
 - food
 - essential non-covid medical supplies
+- other essential supplies
+
+# Data
+- donors
+    - product
+    - number
+    - location
+    - times available to donate
+
