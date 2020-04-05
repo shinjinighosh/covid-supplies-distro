@@ -7,3 +7,6 @@ https://github.com/MonsantoCo/ol-kit
 Panjiva supply chain data platform
 https://covid-19-apis.postman.com/
 https://gettingstartedhealth.intersystems.com/hackathon/
+https://github.com/rsowers-dhc/covid19
+https://c19hcc.org/
+
