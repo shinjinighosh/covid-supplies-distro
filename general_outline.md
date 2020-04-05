@@ -63,6 +63,7 @@ arrive with stuff, or gather stuff when
     - location
     - times available to donate
     - ability to transport
+    - distance willing to transport
     - certified?
 - recipients
     - individuals
@@ -79,6 +80,7 @@ arrive with stuff, or gather stuff when
         - urgency
         - location
         - ability to transport
+        - distance willing to transport
         - availability
         - certification necessity
 - tranport volunteers
@@ -102,6 +104,3 @@ arrive with stuff, or gather stuff when
         - availability
         - capacity for transportation
         - distance willing to transport
-
-
-
