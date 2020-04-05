@@ -12,10 +12,10 @@ function login() {
                 // var bgcontainer = $('#bgcontainer');
                 // bgcontainer.html(response['bgcontainer']);
                 // makebg();
-                alert("logged in");
+                alert(response["message"]);
             },
             error: function (response) {
-                alert('ERROR', response);
+                alert('ERROR', response["message"]);
             }
         });
 }

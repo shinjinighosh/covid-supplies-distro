@@ -5,9 +5,10 @@ import json
 from flask import Flask, url_for, request, render_template, json
 from argparse import ArgumentParser
 
+import loginhelp
+
 app = Flask(__name__)
 app.config['APPLICATION_ROOT'] = '.'
-
 
 @app.route('/login')
 def login():
@@ -21,11 +22,20 @@ def index():
 
 @app.route('/login/check', methods=['POST'])
 def login_check():
-    data = request.get_json()
-    print(data)
+    reqdata = request.get_json()
+    data = dict()
+    for entry in reqdata:
+        data[entry['name']] = entry['value']
+    valid = loginhelp.check(data['user'], data['pwd'])
+    if valid:
+        role = data['role']
 
-    response = app.response_class(status=200, response=json.dumps({}),
-                                  mimetype='application/json')
+        response = app.response_class(status=200, response=json.dumps({'message': 'login success'}),
+                                      mimetype='application/json')
+
+    else:
+        response = app.response_class(status=400, response=json.dumps({'message': 'invalid login credentials'}),
+                                      mimetype='application/json')
 
     return response
 
